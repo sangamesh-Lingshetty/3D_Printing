@@ -1,89 +1,434 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.12.2/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.12.2/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dimensions X</title>
+  <link rel="icon" href="/imgs/logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="responsive.css"> <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body>
+  <div class="offer">
+    <marquee behavior="alternate" direction="right">Special Offer First product 10% off</marquee>
+  </div>
+  <div class="top">
+    <nav class="navbar">
+      <div class="nav_left"> <img src="./imgs/logo.jpg" alt="Logo_loading">
+        <h3 class="tittle">Dimensions <span style="color: red;">X</span></h3>
+      </div>
+      <div class="bar"> <i id="open" class='fas fa-bars' style='font-size:30px'></i> <i id="close" class="fa fa-remove"
+          style="font-size:36px"></i> </div>
+      <div class="rightside">
+        <div class="nav_middle">
+          <ul class="lists">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Shop</li>
+            <li><i class="fa fa-search" style="font-size: 25px;"></i></li>
+          </ul>
+        </div>
+        <div class="nav_right">
+          <ul class="lists">
+            <li><button class="contact">Register</button></li>
+            <li><button class="contact">Contact</button></li>
+            <li><i class="fa fa-shopping-cart" style="font-size: 29px;color: black;"></i></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="heading">
+      <div class="mini_heading">
+        <p style="color: rgb(212, 237, 149);">Welcome to our 3D World</p>
+        <div class="headline">
+          <h2 class="online_3d">Online 3D printing services</h2>
+        </div>
+        <div class="info">
+          <p>"Transforming Ideas into Reality with Cutting-Edge 3D Modeling" <br> Experience the power of precision and
+            creativity as we bring your concepts to life. Our expert 3D modeling services deliver detailed and dynamic
+            models that inspire and captivate.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="mid">
+    <div class="box">
+      <h5 style="color: #a49595;">WHAT WE OFFER</h5>
+      <h2 class="why">Why 3D printers?</h2>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <div class="box1">
+      <div class="highquality">
+        <div class="img1"> <img src="./imgs/resolution.png" alt="Loading"> </div>
+        <h3>High quality</h3>
+        <p>Consectetur adipiscing elit, sed do eiusmod</p>
+      </div>
+      <div class="highquality">
+        <div class="img1"> <img src="./imgs/simplicity.png" alt=""> </div>
+        <h3>Simple to use</h3>
+        <p>Consectetur adipiscing elit, sed do eiusmod</p>
+      </div>
+      <div class="highquality">
+        <div class="img1"> <img src="./imgs/money.png" alt=""> </div>
+        <h3>Affordable</h3>
+        <p>Consectetur adipiscing elit, sed do eiusmod</p>
+      </div>
+      <div class="highquality">
+        <div class="img1"> <img src="./imgs/person.png" alt=""> </div>
+        <h3>Multitasking</h3>
+        <p>Consectetur adipiscing elit, sed do eiusmod</p>
+      </div>
+    </div>
+  </div>
+  <div class="mid1">
+    <div class="box">
+      <h5 style="color: #a49595;">HOW IT'S WORK</h5>
+      <h2 class="why">3D printing machine</h2>
+    </div>
+    <div class="machine_img">
+      <div class="video"> <iframe width="1300" height="600" src="https://www.youtube.com/embed/bcTzyx35odY"
+          frameborder="0" allowfullscreen></iframe> </div>
+      <div class="mccontainer">
+        <div class="mcleft"> <img id="mcleftimg1" src="./imgs/machine_photo5.webp" alt="load failed"> </div>
+        <div class="mcleft1"> <img id="mcleftimg" src="./imgs/machine_photo3.webp" alt="loading"> </div>
+      </div>
+      <div class="mcright">
+        <div class="video"> <iframe width="1300" height="600"
+            src="https://www.youtube.com/embed/WAlbIKWy9oA?enablejsapi=1&autoplay=1&loop=1&playlist=WAlbIKWy9oA"
+            frameborder="0" allowfullscreen></iframe> </div>
+        <div class="bottomright"> <!-- <img src="./imgs/wheel-removebg-preview.png" alt="load failed"> -->
+          <h2>machine spec</h2>
+          <p>Product Max volumn :220 * 220 * 240mm </p>
+          <p>Supported Filaments : PLA,PETF,ABS,TPU(95A),ASA</p>
+        </div>
+      </div>
+    </div> <!-- <div class="specification">             <h2>machine spec</h2>         </div> -->
+    <!-- when user hover it's shown the machine spec -->
+  </div>
+  <div class="mid2">
+    <div class="box">
+      <h5 style="color: #a49595;">WHAT WE OFFER</h5>
+      <h2 class="why">3D printing services</h2>
+    </div>
+    <div class="services">
+      <div class="full_color">
+        <div class="color_img"> <img src="./imgs/parts-removebg-preview_resize.png" alt="loading"> </div>
+        <div class="colr_detailes">
+          <h2>Full_Color</h2>
+          <p>Upload customized models for 3D printing service—ensuring durability and strength in materials that result
+            in end-use products meant to last.</p>
+          <div class="btn">
+            <h4>Read More</h4> <i class="fa fa-arrow-right" style="font-size:26px"></i>
+          </div>
+        </div>
+      </div>
+      <div class="full_color">
+        <div class="color_img"> <img src="https://i.ytimg.com/vi/QEKN3wpbtlc/maxresdefault.jpg" alt="loading"> </div>
+        <div class="colr_detailes">
+          <h2>Production Parts</h2>
+          <p>Upload customized models for 3D printing service—ensuring durability and strength in materials that result
+            in end-use products meant to last.</p> <!-- <a href="" blank="_"> -->
+          <div class="btn">
+            <h4>Read More</h4> <i class="fa fa-arrow-right" style="font-size:26px"></i>
+          </div> <!-- </a> -->
+        </div>
+      </div>
+      <div class="full_color">
+        <div class="color_img"> <img src="./imgs/prototy model.jpg" alt="loading"> </div>
+        <div class="colr_detailes">
+          <h2>Rapid Prototyping</h2>
+          <p>Take the guesswork out of product development with 3D printing services for high-performance models used in
+            meetings, testing of final parts.</p>
+          <div class="btn">
+            <h4>Read More</h4> <i class="fa fa-arrow-right" style="font-size:26px"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mid3">
+    <div class="box">
+      <h5 style="color: #a49595;">OUR PRODUCT</h5>
+      <h2 class="why">3D printing Model</h2>
+    </div>
+    <div class="part_cart1">
+      <div class="part1">
+        <div class="part_img"> <img src="./imgs/model11.jpg" alt="loading"> </div>
+        <div class="part_detailes">
+          <h3 style="color: #a49595;">Entertainment</h3>
+          <h2>Chess</h2>
+          <h3 style="color: #a49595; "> 200rupee</h3>
+          <div class="btn1"> <button>Book Now</button> </div>
+        </div>
+      </div>
+      <div class="part1">
+        <div class="part_img"> <img src="./imgs/model23.jpg" alt="loading"> </div>
+        <div class="part_detailes">
+          <h3 style="color: #a49595;">Entertainment</h3>
+          <h2>Chess</h2>
+          <p style="color: #a49595;"> 200rupee</p>
+          <div class="btn1"> <button>Book Now</button> </div>
+        </div>
+      </div>
+      <div class="part1">
+        <div class="part_img"> <img src="./imgs/model3.jpg" alt="loading"> </div>
+        <div class="part_detailes">
+          <h3 style="color: #a49595;">Entertainment</h3>
+          <h2>Chess</h2>
+          <p style="color: #a49595;"> 200rupee</p>
+          <div class="btn1"> <button>Book Now</button> </div>
+        </div>
+      </div>
+      <div class="part1">
+        <div class="part_img"> <img src="https://i.pinimg.com/originals/2c/55/7f/2c557f4ace619cd4b6091710a9f63aed.jpg"
+            alt="loading"> </div>
+        <div class="part_detailes">
+          <h3 style="color: #a49595;">Entertainment</h3>
+          <h2>Chess</h2>
+          <p style="color: #a49595;"> 200rupee</p>
+          <div class="btn1"> <button>Book Now</button> </div>
+        </div>
+      </div>
+      <div class="part1">
+        <div class="part_img"> <img
+            src="https://i.all3dp.com/wp-content/uploads/2021/06/12134018/benchmarking_agenius.jpg" alt="loading">
+        </div>
+        <div class="part_detailes">
+          <h3 style="color: #a49595;">Entertainment</h3>
+          <h2>Chess</h2>
+          <p style="color: #a49595;"> 200rupee</p>
+          <div class="btn1"> <button>Book Now</button> </div>
+        </div>
+      </div>
+      <div class="part1">
+        <div class="part_img"> <img
+            src="https://printo.themerex.net/wp-content/uploads/2020/05/prod-23-copyright-768x768.jpg" alt="loading">
+        </div>
+        <div class="part_detailes">
+          <h3 style="color: #a49595;">Entertainment</h3>
+          <h2>Chess</h2>
+          <p style="color: #a49595;"> 200rupee</p>
+          <div class="btn1"> <button>Book Now</button> </div>
+        </div>
+      </div>
+      <!-- <div class="part1">                 <div class="part_img">                     <img src="https://printo.themerex.net/wp-content/uploads/2023/01/prod-20-copyright.jpg"                         alt="loading">                 </div>                 <div class="part_detailes">                     <h3 style="color: #a49595;">Entertainment</h3>                     <h2>Chess</h2>                     <p style="color: #a49595;"> 200rupee</p>                     <div class="btn1">                         <button>Book Now</button>                     </div>                 </div>             </div> -->
+      <!-- <div class="part1">                 <div class="part_img">                     <img src="https://printo.themerex.net/wp-content/uploads/2023/01/prod-21-copyright-768x768.jpg"                         alt="loading">                 </div>                 <div class="part_detailes">                     <h3 style="color: #a49595;">Entertainment</h3>                     <h2>Chess</h2>                     <p style="color: #a49595;"> 200rupee</p>                     <div class="btn1">                         <button>Book Now</button>                     </div>                 </div>             </div> -->
+      <!-- <div class="part1">                 <div class="part_img">                     <img src="https://printo.themerex.net/wp-content/uploads/2023/01/prod-19-copyright-768x768.jpg"                         alt="loading">                 </div>                 <div class="part_detailes">                     <h3 style="color: #a49595;">Entertainment</h3>                     <h2>Chess</h2>                     <p style="color: #a49595;"> 200rupee</p>                     <div class="btn1">                         <button>Book Now</button>                     </div>                 </div>             </div> -->
+    </div>
+  </div>
+  <div class="mid4">
+    <div class="box">
+      <h5 style="color: #a49595;">STL FILES</h5>
+      <h2 class="why">All categories</h2>
+    </div>
+    <div class="catego_part">
+      <div class="catego">
+        <div class="catego_img"> <img
+            src="https://printo.themerex.net/wp-content/uploads/2023/01/new-cat-image-2-copyright-570x696.png"
+            alt="loading"> </div>
+        <p class="god">God</p>
+      </div>
+      <div class="catego">
+        <div class="catego_img"> <img src="https://images.meesho.com/images/products/328727301/y0y4o_512.jpg"
+            alt="loading"> </div>
+        <p class="god">Flip name </p>
+      </div>
+      <div class="catego">
+        <div class="catego_img"> <img src="https://assets.ennomotive.com/wp-content/uploads/2016/04/20092753/p2.jpg"
+            alt="loading"> </div>
+        <p class="god">Production</p>
+      </div>
+      <div class="catego">
+        <div class="catego_img"> <img
+            src="https://printo.themerex.net/wp-content/uploads/2023/01/new-cat-image-4-copyright-570x696.png"
+            alt="loading"> </div>
+        <p class="god">Star wars</p>
+      </div>
+    </div>
+  </div>
+  <div class="mid5">
+    <div class="box">
+      <h5 style="color: #a49595;">OUR BLOGS</h5>
+      <h2 class="why">The featured articles</h2>
+    </div>
+    <div class="swiper">
+      <div class=" part_cart">
+        <div class="part ">
+          <div class="part_img11"> <img
+              src="https://tse4.mm.bing.net/th?id=OIP.HyRaiH2nIMAmXpJhRQ6WMQHaHa&pid=Api&P=0&h=180" alt="loading">
+          </div>
+          <div class="part_detailes">
+            <h3 style="color: #a49595;">Insights</h3>
+            <h2>Populer spiral-staircase 3D models</h2>
+            <h3 style="color: #a49595; "> Apr 12,2024 .</h3>
+          </div>
+        </div>
+        <div class="part ">
+          <div class="part_img11"> <img
+              src="https://printo.themerex.net/wp-content/uploads/2020/05/prod-23-copyright-768x768.jpg" alt="loading">
+          </div>
+          <div class="part_detailes">
+            <h3 style="color: #a49595;">Insights</h3>
+            <h2>Populer spiral-staircase 3D models</h2>
+            <h3 style="color: #a49595; "> Apr 12,2024 .</h3>
+          </div>
+        </div>
+        <div class="part ">
+          <div class="part_img11"> <img src="https://techstory.in/wp-content/uploads/2021/08/unnamed-28.jpg"
+              alt="loading"> </div>
+          <div class="part_detailes">
+            <h3 style="color: #a49595;">Insights</h3>
+            <h2>Populer spiral-staircase 3D models</h2>
+            <h3 style="color: #a49595; "> Apr 12,2024 .</h3>
+          </div>
+        </div>
+        <div class="part ">
+          <div class="part_img11"> <img
+              src="https://tse3.mm.bing.net/th?id=OIP.IT2iWNIozQ7_uWYtWPTiTQHaE8&pid=Api&P=0&h=180" alt="loading">
+          </div>
+          <div class="part_detailes">
+            <h3 style="color: #a49595;">Insights</h3>
+            <h2>Populer spiral-staircase 3D models</h2>
+            <h3 style="color: #a49595; "> Apr 12,2024 .</h3>
+          </div>
+        </div>
+        <div class="part ">
+          <div class="part_img11"> <img
+              src="https://tse3.explicit.bing.net/th?id=OIP.MeP89XmtFHou0NyKt-ZwXQHaFj&pid=Api&P=0&h=180" alt="loading">
+          </div>
+          <div class="part_detailes">
+            <h3 style="color: #a49595;">Insights</h3>
+            <h2>Populer spiral-staircase 3D models</h2>
+            <h3 style="color: #a49595; "> Apr 12,2024 .</h3>
+          </div>
+        </div> <button id="prevBtn">
+          < </button> <button id="nextBtn"> > </button>
+      </div> <!-- <div class="dots-container">                 <div class="row"></div>             </div> -->
+    </div>
+  </div>
+  <div class="mid6">
+    <div class="box">
+      <h5 style="color: #a49595;">MEET CEO</h5>
+      <h2 class="why">Introduction</h2>
+    </div>
+    <div class="container">
+      <div class="ceo_photo"> <img src="./imgs/money.png" alt="load_failed"> </div>
+      <div class="ceo_detailes">
+        <div class="indetailes">
+          <h2>HI,I am Abhishek Ceo of Dimensions <span style="color: red;">X</span>.</h2>
+          <p>Abhishek is the CEO of Dimension X, a dynamic company specializing in tool design and 3D printing services.
+            With a strong foundation in tool and die making, Abhishek brings over 2 years of valuable experience to the
+            table. He graduated with a diploma in Tool and Die Making from Bidar Humnabad in 2022, showcasing his
+            commitment to excellence from an early stage. </p>
+          <p>Vision and Leadership Style: <br> Abhishek's vision for Dimension X revolves around innovation, precision,
+            and customer satisfaction. His leadership style is characterized by hands-on involvement, strategic
+            planning, and a keen focus on leveraging cutting-edge technologies to meet and exceed client expectations.
+          </p>
+          <p>Quotes: <br> "Abhishek's vision and expertise have been instrumental in driving our company's success. His
+            dedication to quality and innovation sets a high standard in the industry." - Client Testimonial </p>
+          <div class="contact_icons"> <a href="https://www.facebook.com/dimensionx3d2424?mibextid=ZbWKwL"
+              target="_blank"> <button class="btn_1"> <i class="fab fa-facebook-f" style="color: blue;"></i> </button>
+            </a> <a href="http://instagram.com/dimensionx3d2424" target="_blank"> <button class="btn_1"> <i
+                  class="fab fa-instagram" style="color: red;"></i> </button> </a> <a
+              href="https://twitter.com/sangamesh9819" target="_blank"> <button class="btn_1"> <i class="fab fa-twitter"
+                  style="color: black;"></i> </button> </a> <a
+              href="https://youtube.com/@dimensionx3d?si=LiMXId_iuNHPOE1e" target="_blank"> <button class="btn_1"> <i
+                  class="fab fa-youtube" style="color: red;"></i> </button> </a> <a href="https://github.com/Lingshetty"
+              target="_blank"> <button class="btn_1"> <i class="fab fa-github" style="color: black;"></i> </button> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mid6">
+    <div class="box">
+      <h5 style="color: #a49595;">CONTACT</h5>
+      <h2 class="why">Contact Us</h2>
+    </div>
+    <div class="container1">
+      <div class="leftcontainer">
+        <div class="info">
+          <h2>Let's get in touch</h2>
+          <h3>Contact information</h3>
+          <p>we'll make a high quality 3d printing model or part.</p>
+        </div>
+        <div class="phnumber"> <i class="fa fa-phone-square" style='font-size:26px'></i>
+          <p>6366036081</p>
+        </div>
+        <div class="phnumber"> <i class="fa fa-envelope-o" style="font-size:26px"></i>
+          <p>dimensionx2424@gmail.com</p>
+        </div>
+        <div class="phnumber"> <img src="./imgs/Location-1024.webp" alt="loading_img">
+          <p> india,bengalore</p>
+        </div>
+      </div>
+      <div class="rightcontainer">
+        <form action="https://api.web3forms.com/submit" method="POST"> <input type="hidden" name="access_key"
+            value="ffa7c63b-163e-4124-863b-2ceb5a21814a">
+          <div class="name"> <label for="name">Your name</label> <input type="text" id="name" name="name" required>
+          </div>
+          <div class="name"> <label for="email">Email address</label> <input type="email" id="email" name="email"
+              required> </div>
+          <div class="name"> <label for="message">Message</label><br> <textarea id="message" name="message" rows="8"
+              cols="30" required></textarea> </div> <button class="btn2" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="topfooter">
+      <div class="insidefoot">
+        <div class="getstarted"> <img src="./imgs/logo.jpg" alt="load failed">
+          <h3>Dimesions <span style="color: red;">X</span> </h3>
+        </div>
+        <hr class="hr">
+        <div class="getstarted">
+          <h3>getstarted</h3>
+          <li>Home</li>
+          <li>Shop</li>
+          <li>Download</li>
+        </div>
+        <hr class="hr">
+        <div class="getstarted">
+          <h3>About us</h3>
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About Us</li>
+        </div>
+        <hr class="hr">
+        <div class="getstarted">
+          <h3>support</h3>
+          <li>EAQ</li>
+          <li>Help desk</li>
+          <li>Formus</li>
+        </div>
+      </div>
+    </div>
+    <div class="middlefooter">
+      <div class="register">
+        <h3>Register for free</h3> <button class="btn3">SIGN UP!</button>
+      </div>
+    </div>
+    <div class="lastfooter"> <a href="https://www.facebook.com/dimensionx3d2424?mibextid=ZbWKwL" target="_blank">
+        <button class="btn_1"> <i class="fab fa-facebook-f" style="color: blue;"></i> </button> </a> <a
+        href="https://www.instagram.com/dimensionx3d2424/" target="_blank"> <button class="btn_1"> <i
+            class="fab fa-instagram" style="color: red;"></i> </button> </a> <a href="https://twitter.com/"
+        target="_blank"> <button class="btn_1"> <i class="fab fa-twitter" style="color: black;"></i> </button> </a> <a
+        href="https://youtube.com/@dimensionx3d?si=LiMXId_iuNHPOE1e" target="_blank"> <button class="btn_1"> <i
+            class="fab fa-youtube" style="color: red;"></i> </button> </a> <a href="https://github.com/Lingshetty"
+        target="_blank"> <button class="btn_1"> <i class="fab fa-github" style="color: black;"></i> </button> </a>
+    </div>
+    <div class="footer_2">
+      <p>@ 2024 CopyRight: Dimensions X </p>
+    </div>
+  </footer>
+  <!--     <div class="testimonials">         <h2>What our client say</h2>     </div>         <div class="contacts">         <h2>Contact Detailes</h2>     </div> -->
+</body> <!-- u want  any icons go this website https://www.flaticon.com/ -->
+<script src="script.js"></script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
 </html>
